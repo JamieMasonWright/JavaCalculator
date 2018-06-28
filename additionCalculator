@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+//This caculator is for adding to seperate numbers together and printing the result to the screen.
+
+public class Calculator {
+	public static void main (String [] args) {
+		Scanner addition = new Scanner(System.in);
+		double num1, num2, answer;
+		System.out.println("Please enter your first number");
+		num1 = jamie.nextDouble();
+		System.out.println("Please enter your second number");
+		num2 = jamie.nextDouble();
+		answer = num1 + num2;
+		System.out.println("Your asnwer is " + answer);
+	}
+	
+
+}
